@@ -37,7 +37,7 @@ body {
     width: 100%;
 }
 
-#name, #email, #message {
+#name, #email, #message, #sede {
     padding: 10px;
     background-color: #9f9f9f;
     border: 1px solid #565656;
@@ -47,6 +47,16 @@ body {
     box-sizing: border-box;
 } 
 
-#name:focus, #email:focus, #message:focus, #btn-enviar:focus {
+#data {
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #565656;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#name:focus, #email:focus, #message:focus, #sede:focus, #data:focus, #btn-enviar:focus {
     outline: #333333 solid 2px;
 }
