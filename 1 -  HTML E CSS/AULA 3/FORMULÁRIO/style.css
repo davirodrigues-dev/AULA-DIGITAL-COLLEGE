@@ -54,7 +54,7 @@ body {
     width: 100%;
 }
 
-#name:focus, #email:focus, #message:focus, #sede:focus, #data:focus, #btn-cadastrar:focus {
+#name:focus, #email:focus, #message:focus, #sede:focus, #senha:focus, #data:focus, #btn-cadastrar:focus {
     outline: #818181 solid 2px;
 }
 
