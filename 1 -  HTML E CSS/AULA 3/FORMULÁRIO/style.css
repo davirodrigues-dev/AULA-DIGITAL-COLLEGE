@@ -39,8 +39,7 @@ body {
 
 #name, #email, #message, #sede, #senha{
     padding: 10px;
-    background-color: #9f9f9f;
-    border: 1px solid #565656;
+    background-color: #ffffff;
     border-radius: 5px;
     font-size: 16px;
     width: 100%;
@@ -58,5 +57,5 @@ body {
 }
 
 #name:focus, #email:focus, #message:focus, #sede:focus, #data:focus, #btn-cadastrar:focus {
-    outline: #333333 solid 2px;
+    outline: #818181 solid 2px;
 }
