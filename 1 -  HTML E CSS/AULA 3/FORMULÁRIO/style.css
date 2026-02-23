@@ -24,7 +24,7 @@ body {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 40px;
     margin: 20px 30px;
     gap: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0);
@@ -58,4 +58,14 @@ body {
 
 #name:focus, #email:focus, #message:focus, #sede:focus, #data:focus, #btn-cadastrar:focus {
     outline: #818181 solid 2px;
+}
+
+#btn-cadastrar {
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    padding: 9px
+}
+
+#btn-cadastrar:hover {
+    transform: scale(1.05);
 }
