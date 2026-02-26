@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(150deg, #494949, #000000);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-container {
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin: 20px 30px;
+    gap: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.631);
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+#name, #email, #message, #senha, #data, #sede {
+    border: none;
+    padding: 10px;
+    background: linear-gradient(125deg, #ff00a6, #c300a9);
+    border-radius: 45px;
+    font-size: 16px;
+    width: 100%;
+    color: #ffffff;
+} 
+
+#name:focus, #email:focus, #message:focus, #sede:focus, #senha:focus, #data:focus, #btn-cadastrar:focus {
+    outline: 2px solid #ff00a6b3;
+    background: linear-gradient(125deg, #c300a9, #ff00a6);
+}
+
+#btn-cadastrar {
+    border-radius: 45px;
+    background: linear-gradient(125deg, #ff00a6, #c300a9);
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    padding: 9px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#btn-cadastrar:hover {
+    transform: scale(1.05);
+    background: linear-gradient(125deg, #c300a9, #ff00a6);
+}
+
+select {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #ff00aa;
+}
+
+select option {
+    background-color: #000;
+    color: #fff;
+}
+
+@media (max-width:600px) {
+    .form-container {
+        width: 90%;
+        padding: 20px;
+    }
+    #name, #email, #message, #senha, #data, #sede {
+        font-size: 14px;
+    }
+    #btn-cadastrar {
+        font-size: 14px;
+    }
+}
