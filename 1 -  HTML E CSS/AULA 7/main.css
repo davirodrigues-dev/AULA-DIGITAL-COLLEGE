@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100vh;
+}
+
+.containerIphone,
+.containerPoco,
+.containerPs5 {
+    width: 300px;
+    height: 520px;
+    max-width: 90%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 10px 20px rgba(0, 0, 0);
+    border-radius: 10px;
+    padding: 45px 15px;
+}
+
+.containerIphone img,
+.containerPoco img,
+.containerPs5 img {
+    height: 200px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+    border-radius: 12px;
+}
+
+#btn-comprar {
+    background-color: blue;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.402);
+}
+
+#btn-comprar:hover {
+    background-color: rgb(57, 57, 248);
+    transform: scale(1.05);;
+}
+
+h3 {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 15px;
+    text-align: center;
+}
